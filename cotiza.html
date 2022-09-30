@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.svg" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cuidar| Enfermeria domiciliaria</title>
+  </head>
+  <!-- iniciobody -->
+  <body>
+    <!-- inicioheader -->
+    <header class="container-fluid">
+      <div class="row">
+        <a href="./index.html" class="col-sm-4 col-md-6"><img src="./img/logo.svg" alt="logo" /></a>
+        <nav class="navbar navbar-expand-lg col-sm-8 col-md-6">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                <a class="nav-link" href="./servicios.html">Servicios</a>
+                <a class="nav-link" href="./trabajaconnosotros.html"
+                  >Trabaja con nosotros</a
+                >
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- finheader -->
+    <main>
+      <div class="main__contacto__img">
+        <img src="./img/contacto.jpg" alt="imagen" />
+      </div>
+      <div>
+        <h1>Cotiza</h1>
+      </div>
+    </main>
+    <section>
+      <div>
+        <h3>Complete el formulario para recibir un presupuesto personalizado</h3>
+    </div>
+      <div>
+        <form action="">
+          <label for="text">Nombre</label>
+          <input type="text" name="Nombre" />
+          <label for="email">Email</label>
+          <input type="email" name="Email" />
+          <label for="tel">Telefono</label>
+          <input type="tel" name="Telefono" />
+          <label for="Zona">Zona de Servicio</label>
+          <select name="Zona" id="">
+            <option value="Zona oeste">Zona Oeste</option>
+            <option value="Zona Sur">Zona Sur</option>
+            <option value="CABA">CABA</option>
+          </select>
+          <label for="Dias">Dias</label>
+          <select name="Dias" id="">
+            <option value="Todos">Todos los dias</option>
+            <option value="Lunes a Viernes">Lunes a Viernes</option>
+            <option value="Sabados y Domingos">Sabados y Domingos</option>
+          </select>
+        </select>
+        <label for="Horas diarias">Horas diarias</label>
+        <select name="Horas Diarias" id="">
+          <option value="24 Horas">24 Horas</option>
+          <option value="12 Horas">12 Horas</option>
+          <option value="8 Horas">8 Horas</option>
+          <option value="Otro">Otro</option>
+        </select>
+          <label for="message">Mensaje</label>
+          <textarea name="message" id="" cols="30" rows="10"></textarea>
+          <input type="submit" value="Enviar" />
+        </form>
+      </div>
+    </section>
+    <!-- iniciofooter -->
+    <footer class="footer">
+      <div class="footer__paragraph">
+        <p>
+          Carlos Pellegrini 620| B1708 DWG| Provincia de Buenos Aires| Argentina
+          |
+          <a href="mailto:consultas@cuidarsalud.com.ar" style="color: #ffffff"
+            >consultas@cuidarsalud.com.ar</a
+          >
+        </p>
+        <p>Tel: +54 11 6974 7089 / 4384 5677 / 5258 6399 / 4383 3835</p>
+      </div>
+    </footer>
+    <!-- finfooter -->
+     <!-- JavaScript Bundle with Popper -->
+     <script
+     src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+     crossorigin="anonymous"
+   ></script>
+  </body>
+</html>
